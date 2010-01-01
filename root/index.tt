@@ -1,5 +1,6 @@
 [% INCLUDE 'head.tt' %]
 [% META title = 'Aðalsíða' %]
+[% META on_mainpage = 1 %]
 [% INCLUDE 'body_start.tt' %]
 
 [% c.loc('Hér rís upplýsingavefur fyrir OpenStreetMap á Íslandi. Vefurinn er
