@@ -14,10 +14,6 @@ __PACKAGE__->config(namespace => '');
 
 App::OpenStreetMapIs::Web::Controller::Root - Root Controller for App::OpenStreetMapIs::Web
 
-=head1 DESCRIPTION
-
-[enter your description here]
-
 =head1 METHODS
 
 =head2 index
@@ -55,7 +51,7 @@ sub end : ActionClass('RenderView') {}
 
 =head1 AUTHOR
 
-Catalyst developer
+E<AElig>var ArnfjE<ouml>rE<eth> Bjarmason <avar@cpan.org>
 
 =head1 LICENSE
 

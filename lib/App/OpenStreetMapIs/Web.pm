@@ -44,7 +44,7 @@ __PACKAGE__->setup();
 
 =head1 NAME
 
-App::OpenStreetMapIs::Web - Catalyst based application
+App::OpenStreetMapIs::Web - Catalyst based application running L<http://openstreetmap.is>
 
 =head1 SYNOPSIS
 
@@ -52,7 +52,7 @@ App::OpenStreetMapIs::Web - Catalyst based application
 
 =head1 DESCRIPTION
 
-[enter your description here]
+This is the L<Catalyst>-based web application that runs L<http://openstreetmap.is>.
 
 =head1 SEE ALSO
 
@@ -60,7 +60,7 @@ L<App::OpenStreetMapIs::Web::Controller::Root>, L<Catalyst>
 
 =head1 AUTHOR
 
-Catalyst developer
+E<AElig>var ArnfjE<ouml>rE<eth> Bjarmason <avar@cpan.org>
 
 =head1 LICENSE
 
