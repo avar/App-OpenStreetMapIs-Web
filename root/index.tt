@@ -1,4 +1,4 @@
-g[% INCLUDE 'head.tt' %]
+[% INCLUDE 'head.tt' %]
 [% META title = 'Aðalsíða' %]
 [% INCLUDE 'body_start.tt' %]
 
