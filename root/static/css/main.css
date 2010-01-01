@@ -1,0 +1,22 @@
+body {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    color: #33c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #99c !important;
+    text-decoration: underline;
+}
+
+/* Set styles */
+div#container-page {
+    border: 0px solid;
+    margin: 0 auto;
+    width: 762px;
+}
