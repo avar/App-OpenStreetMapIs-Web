@@ -1,5 +1,5 @@
 [% INCLUDE 'head.tt' %]
-[% META title = 'Aðalsíða' %]
+[% META title = 'Hvað er OpenStreetMap?' %]
 [% INCLUDE 'body_start.tt' %]
 
 intro blah blah

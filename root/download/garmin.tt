@@ -1,5 +1,5 @@
 [% INCLUDE 'head.tt' %]
-[% META title = 'Aðalsíða' %]
+[% META title = 'Garmin kort byggð á OpenStreetMap' %]
 [% INCLUDE 'body_start.tt' %]
 
 download garmin blah blah
