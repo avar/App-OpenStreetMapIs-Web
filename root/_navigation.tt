@@ -1,4 +1,5 @@
 <ul class="navigation">
+  <li><a href="/" title="[% c.loc("Forsíða vefsins") %]">[% c.loc("Forsíða") %]</a></li>
   <li><a href="/introduction" title="[% c.loc("Kynning á OpenStreetMap verkefninu") %]">[% c.loc("Hvað er OpenStreetMap?") %]</a></li>
   <li><a href="/participating" title="[% c.loc("Hvernig þú getur tekið þátt í verkefninu") %]">[% c.loc("Að taka þátt") %]</a></li>
   <li><a href="/map" title="[% c.loc("Kortasýn með OpenStreeMap korti fyrir Ísland") %]">[% c.loc("Kortasýn") %]</a></li>
