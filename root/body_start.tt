@@ -1,5 +1,14 @@
 <body>
-  <h1>[% c.loc("OpenStreetMap á Íslandi") %]</h1>
-  <p class="tagline">[% c.loc('Upplýsingavefur um <a href="http://www.openstreetmap.org" title="Aðal-OpenStreetMap vefurinn">OpenStreetMap verkefnið</a> á Íslandi.') %]</p>
-  <h2>[% template.title %]</h2>
-  [% INCLUDE '_navigation.tt' %]
+  <div id="container-page">
+    <div id="page-header"> 
+      <h1>[% c.loc("OpenStreetMap á Íslandi") %]</h1>
+      <p>
+        [% c.loc('Upplýsingavefur um <a href="http://www.openstreetmap.org" title="Aðal-OpenStreetMap vefurinn">OpenStreetMap verkefnið</a> á Íslandi.') %]
+      </p>
+    </div>
+    <div id="page-name"> 
+      <h2>[% template.title %]</h2>
+    </div>
+    <div id="navigation">
+      [% INCLUDE '_navigation.tt' %]
+    </div>
