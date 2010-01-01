@@ -14,9 +14,54 @@ a:hover {
     text-decoration: underline;
 }
 
+p {
+    font-size: 0.95em;
+    margin: 9px 0px;
+}
+
 /* Set styles */
 div#container-page {
     border: 0px solid;
     margin: 0 auto;
     width: 762px;
 }
+
+/* page header */
+div#page-header {
+    margin-top: 24px;
+}
+div#page-header img {
+    float: left;
+}
+div#page-header h1, div#page-header p {
+    margin: 0px 0px 0px 140px;
+}
+div#page-header h1 {
+    padding-top: 24px;
+}
+div#page-header p {
+    padding-left: 1em;
+    padding-top: 0px;
+}
+
+div#box-welcome p {
+    margin: 2px;
+}
+
+/* Rounded box */
+div.box-rounded {
+    margin: 24px auto;
+    margin-top: 1em;
+    padding: 0px 12px;
+}
+div.box-rounded, div.box-rounded b.rtop b, div.box-rounded b.rbottom b {
+    background: #eee;
+}
+
+/* Nifty Corners - http://www.html.it/articoli/nifty/index.html */
+b.rtop, b.rbottom{display:block;background:#fff;margin: 0 -12px;}
+b.rtop b, b.rbottom b{display:block;height:1px;overflow:hidden;}
+b.r1{margin:0 5px}
+b.r2{margin:0 3px}
+b.r3{margin:0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin:0 1px;height:2px}
