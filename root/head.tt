@@ -1,0 +1,4 @@
+<!doctype html> 
+<html>
+  <title>[% c.localize("OpenStreetMap á Íslandi") %] | [% template.title %]</title>
+</head>
