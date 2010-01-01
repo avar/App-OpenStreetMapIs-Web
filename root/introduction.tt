@@ -1,0 +1,7 @@
+[% INCLUDE 'head.tt' %]
+[% META title = 'Aðalsíða' %]
+[% INCLUDE 'body_start.tt' %]
+
+intro blah blah
+
+[% INCLUDE 'body_end.tt' %]

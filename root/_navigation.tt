@@ -1,7 +1,7 @@
 <ul class="navigation">
-  <li><a href="/kynning" title="[% c.loc("Kynning á OpenStreetMap verkefninu") %]">[% c.loc("Hvað er OpenStreetMap?") %]</li>
-  <li><a href="/að taka þátt" title="[% c.loc("Hvernig þú getur tekið þátt í verkefninu") %]">[% c.loc("Að taka þátt") %]</li>
-  <li><a href="/kort" title="[% c.loc("Kortasýn með OpenStreeMap korti fyrir Ísland") %]">[% c.loc("Kortasýn") %]</li>
-  <li><a href="/garmin" title="[% c.loc("OpenStreetMap fyrir Garmin tæki") %]">[% c.loc("Garmin kort") %]</li>
-  <li><a href="/vefurinn" title="[% c.loc("Upplýsingar um OpenStreetMap.is vefinn") %]">[% c.loc("Um vefinn") %]</li>
+  <li><a href="/introduction" title="[% c.loc("Kynning á OpenStreetMap verkefninu") %]">[% c.loc("Hvað er OpenStreetMap?") %]</a></li>
+  <li><a href="/participating" title="[% c.loc("Hvernig þú getur tekið þátt í verkefninu") %]">[% c.loc("Að taka þátt") %]</a></li>
+  <li><a href="/map" title="[% c.loc("Kortasýn með OpenStreeMap korti fyrir Ísland") %]">[% c.loc("Kortasýn") %]</a></li>
+  <li><a href="/download/garmin" title="[% c.loc("OpenStreetMap fyrir Garmin tæki") %]">[% c.loc("Garmin kort") %]</a></li>
+  <li><a href="/about" title="[% c.loc("Upplýsingar um OpenStreetMap.is vefinn") %]">[% c.loc("Um vefinn") %]</a></li>
 </ul>

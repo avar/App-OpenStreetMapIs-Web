@@ -1,12 +1,10 @@
-[% INCLUDE 'head.tt' %]
+g[% INCLUDE 'head.tt' %]
 [% META title = 'Aðalsíða' %]
-<body>
-  <h1>[% c.loc("OpenStreetMap á Íslandi") %]</h1>
-  <p class="tagline">[% c.loc('Upplýsingavefur um <a href="http://www.openstreetmap.org" title="Aðal-OpenStreetMap vefurinn">OpenStreetMap verkefnið</a> á Íslandi.') %]</p>
-  <h2>[% template.title %]</h2>
+[% INCLUDE 'body_start.tt' %]
 
-  [% INCLUDE '_navigation.tt' %]
-</body>
-</html>
+[% c.loc('Hér rís upplýsingavefur fyrir OpenStreetMap á Íslandi. Vefurinn er
+enn í vinnslu en hægt er að fylgjast með
+framvindunni <a href="http://github.com/avar/App-OpenStreetMapIs-Web">á
+github</a>.') %]
 
-
+[% INCLUDE 'body_end.tt' %]
