@@ -11,7 +11,7 @@
       <b class="rtop"><b class="r1"></b> <b class="r2"></b> <b class="r3"></b> <b class="r4"></b></b>
       <p>
         [% c.loc('Velkomin á vef OpenStreetMap á Íslandi. <a href="http://www.openstreetmap.org" title="Aðal-OpenStreetMap vefurinn">OpenStreetMap</a> er frjálst verkefni þar sem allir geta lagt sitt af mörkum sem er að búa til kort af öllum heiminum, þ.á.m. Íslandi.<br/>
-        Hér er að finna grunnupplýsingar um verkefnið og það hvernig þú getur nýtt þér það og tekið þátt.
+        Hér er að finna grunnupplýsingar um verkefnið, hvernig þú getur nýtt þér það og tekið þátt.
         ') %]
       <b class="rbottom"><b class="r4"></b> <b class="r3"></b> <b class="r2"></b> <b class="r1"></b></b> 
     </div>
