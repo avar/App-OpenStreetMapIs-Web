@@ -1,7 +1,7 @@
-[% INCLUDE 'head.tt' %]
-[% META title = 'Kortasýn' %]
-[% INCLUDE 'body_start.tt' %]
+[% pagename = c.loc('Kortasýn') %]
+[% PROCESS 'head.tt' %]
+[% PROCESS 'body_start.tt' %]
 
 map blah blah
 
-[% INCLUDE 'body_end.tt' %]
+[% PROCESS 'body_end.tt' %]

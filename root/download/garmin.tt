@@ -1,7 +1,7 @@
-[% INCLUDE 'head.tt' %]
-[% META title = 'Garmin kort byggð á OpenStreetMap' %]
-[% INCLUDE 'body_start.tt' %]
+[% pagename = c.loc('Garmin kort byggð á OpenStreetMap') %]
+[% PROCESS 'head.tt' %]
+[% PROCESS 'body_start.tt' %]
 
 download garmin blah blah
 
-[% INCLUDE 'body_end.tt' %]
+[% PROCESS 'body_end.tt' %]

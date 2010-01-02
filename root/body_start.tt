@@ -17,11 +17,11 @@
     </div>
     [% END %]
 
-    <!--div id="page-name"> 
-      <h2>[% template.title %]</h2>
-    </div-->
+    <div id="page-name"> 
+      <h2>[% pagename %]</h2>
+    </div>
 
     <div id="navigation">
-      [% INCLUDE '_navigation.tt' %]
+      [% PROCESS '_navigation.tt' %]
     </div>
 

@@ -1,10 +1,10 @@
-[% INCLUDE 'head.tt' %]
-[% META title = 'Um vefinn' %]
-[% INCLUDE 'body_start.tt' %]
+[% pagename = c.loc('Um vefinn') %]
+[% PROCESS 'head.tt' %]
+[% PROCESS 'body_start.tt' %]
 
-Hér rís upplýsingavefur fyrir OpenStreetMap á Íslandi. Vefurinn er
+[% t.loc('Hér rís upplýsingavefur fyrir OpenStreetMap á Íslandi. Vefurinn er
 enn í vinnslu en hægt er að fylgjast með
 framvindunni <a href="http://github.com/avar/App-OpenStreetMapIs-Web">á
-github
+github') %]
 
-[% INCLUDE 'body_end.tt' %]
+[% PROCESS 'body_end.tt' %]

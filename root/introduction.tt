@@ -1,7 +1,7 @@
-[% INCLUDE 'head.tt' %]
-[% META title = 'Hvað er OpenStreetMap?' %]
-[% INCLUDE 'body_start.tt' %]
+[% pagename = c.loc('Hvað er OpenStreetMap?') %]
+[% PROCESS 'head.tt' %]
+[% PROCESS 'body_start.tt' %]
 
 intro blah blah
 
-[% INCLUDE 'body_end.tt' %]
+[% PROCESS 'body_end.tt' %]
