@@ -1,4 +1,4 @@
-<ul>
+<ul id="menu">
   <li><a href="[% c.uri_for('/') %]" title="[% c.loc("Forsíða vefsins") %]">[% c.loc("Forsíða") %]</a></li>
   <li><a href="[% c.uri_for('/introduction') %]" title="[% c.loc("Kynning á OpenStreetMap verkefninu") %]">[% c.loc("Hvað er OpenStreetMap?") %]</a></li>
   <li><a href="[% c.uri_for('/participating') %]" title="[% c.loc("Hvernig þú getur tekið þátt í verkefninu") %]">[% c.loc("Að taka þátt") %]</a></li>

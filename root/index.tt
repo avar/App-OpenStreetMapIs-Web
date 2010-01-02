@@ -3,9 +3,10 @@
 [% META on_mainpage = 1 %]
 [% INCLUDE 'body_start.tt' %]
 
+<!--
 [% c.loc('Hér rís upplýsingavefur fyrir OpenStreetMap á Íslandi. Vefurinn er
 enn í vinnslu en hægt er að fylgjast með
 framvindunni <a href="http://github.com/avar/App-OpenStreetMapIs-Web">á
 github</a>.') %]
-
+-->
 [% INCLUDE 'body_end.tt' %]
