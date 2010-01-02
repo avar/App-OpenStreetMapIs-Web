@@ -6,7 +6,7 @@
         [% c.loc('Frjálsa wiki heimskortið, líka á Íslandi') %]
       </p>
     </div>
-    [% IF template.on_mainpage %]
+    [% IF on_mainpage %]
     <div class="box-rounded" id="box-welcome"> 
       <b class="rtop"><b class="r1"></b> <b class="r2"></b> <b class="r3"></b> <b class="r4"></b></b>
       <p>

@@ -1,5 +1,6 @@
 [% pagename = 'Aðalsíða' %]
 [% PROCESS 'head.tt' %]
+[% on_mainpage = 1 %]
 [% PROCESS 'body_start.tt' %]
 
 <!--
