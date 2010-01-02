@@ -1,4 +1,4 @@
-[% pagename = 'Aðalsíða' %]
+[% pagename = 'Forsíða %]
 [% PROCESS 'head.tt' %]
 [% on_mainpage = 1 %]
 [% PROCESS 'body_start.tt' %]
