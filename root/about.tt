@@ -2,6 +2,9 @@
 [% META title = 'Um vefinn' %]
 [% INCLUDE 'body_start.tt' %]
 
-about blah blah
+Hér rís upplýsingavefur fyrir OpenStreetMap á Íslandi. Vefurinn er
+enn í vinnslu en hægt er að fylgjast með
+framvindunni <a href="http://github.com/avar/App-OpenStreetMapIs-Web">á
+github
 
 [% INCLUDE 'body_end.tt' %]
