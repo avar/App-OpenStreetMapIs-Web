@@ -1,8 +1,20 @@
-<ul id="menu">
-  <li><a href="[% c.uri_for('/') %]" title="[% c.loc("Forsíða vefsins") %]">[% c.loc("Forsíða") %]</a></li>
-  <li><a href="[% c.uri_for('/introduction') %]" title="[% c.loc("Kynning á OpenStreetMap verkefninu") %]">[% c.loc("Hvað er OpenStreetMap?") %]</a></li>
-  <li><a href="[% c.uri_for('/participating') %]" title="[% c.loc("Hvernig þú getur tekið þátt í verkefninu") %]">[% c.loc("Að taka þátt") %]</a></li>
-  <li><a href="[% c.uri_for('/map') %]" title="[% c.loc("Kortasýn með OpenStreeMap korti fyrir Ísland") %]">[% c.loc("Kortasýn") %]</a></li>
-  <li><a href="[% c.uri_for('/download/garmin') %]" title="[% c.loc("OpenStreetMap fyrir Garmin tæki") %]">[% c.loc("Garmin kort") %]</a></li>
-  <li><a href="[% c.uri_for('/about') %]" title="[% c.loc("Upplýsingar um OpenStreetMap.is vefinn") %]">[% c.loc("Um vefinn") %]</a></li>
+<ul id="nav">
+  <li[% IF on_index %] class="activelink"[% END %]>
+    <a href="[% c.uri_for('/') %]" title="[% c.loc("Forsíða vefsins") %]">[% c.loc("Forsíða") %]</a>
+  </li>
+  <li[% IF on_introduction %] class="activelink"[% END %]>
+    <a href="[% c.uri_for('/introduction') %]" title="[% c.loc("Kynning á OpenStreetMap verkefninu") %]">[% c.loc("Hvað er OSM?") %]</a>
+  </li>
+  <li[% IF on_participating %] class="activelink"[% END %]>
+    <a href="[% c.uri_for('/participating') %]" title="[% c.loc("Hvernig þú getur tekið þátt í verkefninu") %]">[% c.loc("Að taka þátt") %]</a>
+  </li>
+  <li[% IF on_map %] class="activelink"[% END %]>
+    <a href="[% c.uri_for('/map') %]" title="[% c.loc("Kortasýn með OpenStreeMap korti fyrir Ísland") %]">[% c.loc("Kortasýn") %]</a>
+  </li>
+  <li[% IF on_download_garmin %] class="activelink"[% END %]>
+    <a href="[% c.uri_for('/download/garmin') %]" title="[% c.loc("OpenStreetMap fyrir Garmin tæki") %]">[% c.loc("Garmin kort") %]</a>
+  </li>
+  <li[% IF on_about %] class="activelink"[% END %]>
+    <a href="[% c.uri_for('/about') %]" title="[% c.loc("Upplýsingar um OpenStreetMap.is vefinn") %]">[% c.loc("Um vefinn") %]</a>
+  </li>
 </ul>

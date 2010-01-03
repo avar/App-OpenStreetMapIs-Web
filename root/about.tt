@@ -1,5 +1,6 @@
 [% pagename = c.loc('Um vefinn') %]
 [% PROCESS 'head.tt' %]
+[% on_about = 1 %]
 [% PROCESS 'body_start.tt' %]
 
 [% t.loc('Hér rís upplýsingavefur fyrir OpenStreetMap á Íslandi. Vefurinn er

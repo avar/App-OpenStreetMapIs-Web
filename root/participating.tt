@@ -1,5 +1,6 @@
 [% pagename = c.loc('Að taka þátt') %]
 [% PROCESS 'head.tt' %]
+[% on_participating = 1 %]
 [% PROCESS 'body_start.tt' %]
 
 participating blah blah

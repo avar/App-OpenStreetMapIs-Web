@@ -25,6 +25,7 @@ The root page (/)
 sub index :Path :Args(0) {
     my ( $self, $c ) = @_;
 
+    $c->stash->{active_index} = 1;
     $c->stash->{template} = 'index.tt';
 }
 

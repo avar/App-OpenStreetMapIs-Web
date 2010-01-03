@@ -1,5 +1,6 @@
 [% pagename = c.loc('Kortasýn') %]
 [% PROCESS 'head.tt' %]
+[% on_map = 1 %]
 [% PROCESS 'body_start.tt' %]
 
 map blah blah

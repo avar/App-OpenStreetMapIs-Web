@@ -1,5 +1,6 @@
 [% pagename = c.loc('Hvað er OpenStreetMap?') %]
 [% PROCESS 'head.tt' %]
+[% on_introduction = 1 %]
 [% PROCESS 'body_start.tt' %]
 
 intro blah blah

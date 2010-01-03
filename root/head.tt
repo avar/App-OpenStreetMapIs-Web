@@ -5,3 +5,4 @@
     <title>[% c.localize("OpenStreetMap á Íslandi") %] | [% pagename %]</title>
     <link rel="stylesheet" type="text/css" href="[% c.uri_for('/static/css/main.css') %]" />
   </head>
+  <body>

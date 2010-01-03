@@ -1,5 +1,6 @@
 [% pagename = c.loc('Garmin kort byggð á OpenStreetMap') %]
 [% PROCESS 'head.tt' %]
+[% on_download_garmin = 1 %]
 [% PROCESS 'body_start.tt' %]
 
 download garmin blah blah

@@ -1,98 +1,53 @@
-body {
-    background: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+html,body{margin:0;padding:0}
+body{font: 85%/1.3 TrebuchetMS,Arial,sans-serif;
+    text-align: left;background: #fff;padding-bottom:20px}
+a { color: #0066B3; background: inherit; text-decoration: none;}
+h1 { font: bold 2.1em Arial, Arial, Sans-Serif; color: #036DA7 }
+h2 { font: bold 1.1em Arial, Arial, Sans-Serif; padding: 0; margin: 0; }
+
+div#header{width:100%;overflow:hidden;background: #BBD9EE; }
+div#header h1,div#menu{width:770px;margin:0 auto;text-align:left}
+div#header h1{padding: 30px 0 20px;color: #fff}
+
+ul#nav,ul#nav li{list-style-type:none;margin:0;padding:0}
+ul#nav{float:right;font-size: 80%}
+ul#nav li{float:left;margin-left: 3px;text-align: center}
+ul#nav a{float:left;width: 95px;padding: 5px 0;background: #E7F1F8;text-decoration:none;color: #666; border-top : 1px solid #fff; border-left : 1px solid #fff; border-right : 1px solid #fff;}
+ul#nav a:hover{background: #fff;color: #000}
+ul#nav li.activelink a,ul#nav li.activelink a:hover{background: #FFF;color: #003}
+
+#right {
+	float: left;
+	width: 76%;
+	padding: 1em;
+	margin-bottom: 1.2em;
+	background: #eee;
+	text-align: justify;
 }
 
-a {
-    color: #33c;
-    text-decoration: none;
+#left {
+	float: right;
+	width: 20%;
+	margin: 0 0 10px 0;
+	
 }
 
-a:hover {
-    color: #99c !important;
-    text-decoration: underline;
+#left .box {
+	
+	padding: 1em;
+	margin: 0 0 1em 0;
+	background : #FFF6BF;
 }
 
-p {
-    font-size: 0.95em;
-    margin: 9px 0px;
+
+#content {
+font: 95%/1.3 TrebuchetMS,Arial,sans-serif;
+	margin: 0 auto;
+    padding: 15px;
+	background: #fff;
+	
+	
 }
 
-/* Set styles */
-div#container-page {
-    border: 0px solid;
-    margin: 0 auto;
-    width: 762px;
-}
-
-/* page header */
-div#page-header {
-    margin-top: 24px;
-}
-div#page-header img {
-    float: left;
-}
-div#page-header h1, div#page-header p {
-    margin: 0px 0px 0px 140px;
-}
-div#page-header h1 {
-    padding-top: 24px;
-}
-div#page-header p {
-    padding-left: 1em;
-    padding-top: 0px;
-}
-
-div#box-welcome p {
-    margin: 2px;
-}
-
-/* menu */
-#menu {
-    padding: 0
-    margin: 0;
-}
-#menu li {
-    float: left;
-    list-style-type: none;
-    width: 230px; /* 762/3 */
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-top: 3px;
-}
-
-#menu a, #menu a:visited {
-  display:block;
-  border:1px solid #808;
-  font-family:arial, verdana, sans-serif;
-  font-size:1em;
-  text-align:center;
-  text-decoration:none;
-  background: #ccc;
-  color: #449;
-  padding:0.25em;
-}
-
-#menu a:hover {
-  background:#ddd;
-  color:#808;
-}
-
-/* Rounded box */
-div.box-rounded {
-    margin: 24px auto;
-    margin-top: 1em;
-    padding: 0px 12px;
-}
-div.box-rounded, div.box-rounded b.rtop b, div.box-rounded b.rbottom b {
-    background: #eee;
-}
-
-/* Nifty Corners - http://www.html.it/articoli/nifty/index.html */
-b.rtop, b.rbottom{display:block;background:#fff;margin: 0 -12px;}
-b.rtop b, b.rbottom b{display:block;height:1px;overflow:hidden;}
-b.r1{margin:0 5px}
-b.r2{margin:0 3px}
-b.r3{margin:0 2px}
-b.rtop b.r4, b.rbottom b.r4{margin:0 1px;height:2px}
+ul {  padding: 0; margin: 0;}
+li { list-style-type: none;}
