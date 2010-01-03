@@ -29,10 +29,15 @@ h2 {
 }
 
 /* Page header */
-div#header{
+div#header {
     width:100%;
     overflow: hidden;
     background: #BBD9EE;
+}
+
+div#heder h1 {
+    text-align: left;
+    margin-left: 153px;
 }
 
 div#header p {
@@ -41,12 +46,14 @@ div#header p {
     padding-bottom: 0.5em;
     text-align: left;
 }
+
 div#header h1,div#menu {
     font: font: bold 2.1em Arial, Arial, Sans-Serif;
     width:770px;
     margin:0 auto;
     text-align:left;
 }
+
 div#header h1{
     padding-top: 30px;
     color: #000
@@ -114,11 +121,16 @@ ul#nav li.activelink a, ul#nav li.activelink a:hover{
 }
 
 #right .box {
-	
 	padding: 1em;
 	margin: 0 0 1em 0;
 	background : #FFF6BF;
 }
 
-ul {  padding: 0; margin: 0;}
-li { list-style-type: none;}
+#right ul {
+    padding: 0;
+    margin: 0;
+    margin-left: 1.5em;
+}
+#right li {
+    list-style-type: square;
+}
