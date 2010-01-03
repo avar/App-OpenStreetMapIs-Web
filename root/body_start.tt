@@ -1,27 +1,27 @@
-<body>
-  <div id="container-page">
-    <div id="page-header"> 
-      <h1>[% c.loc("OpenStreetMap á Íslandi") %]</h1>
-      <p>
-        [% c.loc('Frjálsa wiki heimskortið, líka á Íslandi') %]
-      </p>
-    </div>
-    [% IF on_mainpage %]
-    <div class="box-rounded" id="box-welcome"> 
-      <b class="rtop"><b class="r1"></b> <b class="r2"></b> <b class="r3"></b> <b class="r4"></b></b>
-      <p>
-        [% c.loc('Velkomin á vef OpenStreetMap á Íslandi. <a href="http://www.openstreetmap.org" title="Aðal-OpenStreetMap vefurinn">OpenStreetMap</a> er frjálst verkefni þar sem allir geta lagt sitt af mörkum sem er að búa til kort af öllum heiminum, þ.á.m. Íslandi.<br/>
-        Hér er að finna grunnupplýsingar um verkefnið, hvernig þú getur nýtt þér það og tekið þátt.
-        ') %]
-      <b class="rbottom"><b class="r4"></b> <b class="r3"></b> <b class="r2"></b> <b class="r1"></b></b> 
-    </div>
-    [% END %]
+  <body>
+    <div id="container-page">
+      <div id="page-header"> 
+        <h1>[% c.loc("OpenStreetMap á Íslandi") %]</h1>
+        <p>
+          [% c.loc('Frjálsa wiki heimskortið, líka á Íslandi') %]
+        </p>
+      </div>
+      [% IF on_mainpage %]
+      <div class="box-rounded" id="box-welcome"> 
+        <b class="rtop"><b class="r1"></b> <b class="r2"></b> <b class="r3"></b> <b class="r4"></b></b>
+        <p>
+          [% c.loc('Velkomin á vef OpenStreetMap á Íslandi. <a href="http://www.openstreetmap.org" title="Aðal-OpenStreetMap vefurinn">OpenStreetMap</a> er frjálst verkefni þar sem allir geta lagt sitt af mörkum sem er að búa til kort af öllum heiminum, þ.á.m. Íslandi.<br/>
+          Hér er að finna grunnupplýsingar um verkefnið, hvernig þú getur nýtt þér það og tekið þátt.
+          ') %]
+          <b class="rbottom"><b class="r4"></b> <b class="r3"></b> <b class="r2"></b> <b class="r1"></b></b> 
+      </div>
+      [% END %]
 
-    <div id="page-name"> 
-      <h2>[% pagename %]</h2>
-    </div>
+      <!--div id="page-name"> 
+        <h2>[% pagename %]</h2>
+      </div-->
 
-    <div id="navigation">
-      [% PROCESS '_navigation.tt' %]
-    </div>
+      <div id="navigation">
+        [% PROCESS '_navigation.tt' %]
+      </div>
 
