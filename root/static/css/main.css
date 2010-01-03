@@ -23,7 +23,7 @@ a {
 }
 
 h2 {
-    font: bold 1.1em Arial, Arial, Sans-Serif;
+    font: bold 1.3em Arial, Arial, Sans-Serif;
     padding: 0;
     margin: 0;
 }
@@ -41,7 +41,7 @@ div#heder h1 {
 }
 
 div#header p {
-    margin-left: 173px; /* XXX: Why does h1 have an implicit margin-left: 153px (see chrome dev tools) */
+    margin-left: 273px; /* XXX: Why does h1 have an implicit margin-left: 153px (see chrome dev tools) */
     margin-top: 0;
     padding-bottom: 0.5em;
     text-align: left;
@@ -105,6 +105,11 @@ ul#nav li.activelink a, ul#nav li.activelink a:hover{
 	background: #fff;
 }
 
+#content img {
+    float: right;
+    margin-left: 1em;
+}
+
 #left {
 	float: left;
 	width: 76%;
@@ -133,4 +138,8 @@ ul#nav li.activelink a, ul#nav li.activelink a:hover{
 }
 #right li {
     list-style-type: square;
+}
+
+.button {
+    margin: 0;
 }
