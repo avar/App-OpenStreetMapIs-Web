@@ -1,11 +1,9 @@
-[% pagename = c.loc('Um vefinn') %]
+[% pagename = c.loc('site.menu.about.text') %]
+[% heading = c.loc('controller.about.heading') %]
 [% PROCESS 'head.tt' %]
 [% on_about = 1 %]
 [% PROCESS 'body_start.tt' %]
 
-[% t.loc('Hér rís upplýsingavefur fyrir OpenStreetMap á Íslandi. Vefurinn er
-enn í vinnslu en hægt er að fylgjast með
-framvindunni <a href="http://github.com/avar/App-OpenStreetMapIs-Web">á
-github') %]
+[% c.loc('controller.about.text') %]
 
 [% PROCESS 'body_end.tt' %]

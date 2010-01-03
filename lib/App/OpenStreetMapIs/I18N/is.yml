@@ -1,0 +1,128 @@
+---
+is:
+  site:
+    layout:
+      title_fmt: "{{sitename}} | {{pagename}}"
+      sitename: OpenStreetMap á Íslandi
+      tagline: Frjálsa wiki heimskortið, líka á Íslandi
+    menu:
+      mainpage:
+        text: Forsíða
+        title: Forsíða vefsins
+      introduction:
+        text: Hvað er OSM?
+        title: Kynning á OpenStreetMap verkefninu
+      participating:
+        text: Að taka þátt
+        title: Hvernig þú getur tekið þátt í verkefninu
+      map:
+        text: Kortasýn
+        title: Kortasýn með OpenStreeMap korti fyrir Ísland
+      download:
+        garmin:
+          text: Garmin kort
+          title: OpenStreetMap fyrir Garmin tæki
+      about:
+        text: Um vefinn
+        title: Upplýsingar um OpenStreetMap.is vefinn
+    heading:
+      map: Kortasýn
+      introduction: Hvað er OpenStreetMap?
+  controller:
+    root:
+      heading: Velkomin á OpenStreetMap!
+      text: |
+
+        <img src="http://www.openstreetmap.org/images/osm_logo.png?1218150545"/>
+
+        <p>
+        Velkomin á vef OpenStreetMap á Íslandi. <a
+        href="http://www.openstreetmap.org" title="Aðal-OpenStreetMap
+        vefurinn">OpenStreetMap</a> er frjálst verkefni þar sem allir
+        geta lagt sitt af mörkum sem er að búa til kort af öllum
+        heiminum, þ.á.m. Ísland. Hér er að finna grunnupplýsingar um
+        verkefnið, hvernig þú getur nýtt þér það og tekið þátt í því.
+        </p>
+    map:
+      heading: OpenStreetMap kortasýn af Íslandi
+      about: |
+        Hér má sjá kortasýn hýsta af <a href="http://openstreetmap.org"
+        title="Aðal OpenStreetMap vefurinn">OpenStreetmap.org</a>. Þetta
+        er aðeins ein af mörgum leiðum til að sjá gögnin, sjá <a
+        href="http://wiki.openstreetmap.org/wiki/List_of_OSM_based_Services">lista
+        yfir OSM-byggðar þjónustur fyrir fleiri</a>.
+      view_larger: Skoða á stærra korti
+    garmin:
+      heading: Garmin kort byggð á OpenStreetMap gögnum
+      text: |
+
+        <p>
+
+        <img src="http://wiki.openstreetmap.org/images/3/3c/Garmin-map-of-Iceland-Iceland.png"/>
+
+        Daglega er sjálfkrafa búinn til kortapakki fyrir Garmin tæki
+        eingöngu byggður á OpenStreetMap gögnunum. Þessi kort eru
+        frjáls (og gjaldfrjáls) og hægt er að setja þau inn á öllum
+        stýrikerfum (Windows, Mac OS, Linux o.fl).
+
+        </p>
+
+        <p>
+
+        Innsetningarleiðbeiningar má nálgast <a
+        href="http://wiki.openstreetmap.org/wiki/Garmin_map_of_Iceland">á
+        OpenStreetMap wiki-vefnum</a>.
+
+        </p>
+
+        <p>
+
+        <p>
+
+        Þessi kort eru kjörin til notkunar við kortagerð því hægt er
+        að nálgast nýja útgáfu af kortinu með gögnum sem sett voru inn
+        daginn áður.
+
+        </p>
+    about:
+      heading: Um OpenStreetMap.is vefinn
+      text: |
+
+        <p>
+
+        Vef þessum er ætlað að veita grunnupplýsingar og þjónustu í
+        kringum OpenStreetMap fyrir íslenskumælandi, hann er enn í
+        vinnslu og er frumkóðinn hýstur <a
+        href="http://github.com/avar/App-OpenStreetMapIs-Web"
+        title="OpenStreetmap.is á github">á github</a>
+
+        </p>
+
+        <p>
+
+        Hægt er að skoða vefinn á bæði <a
+        href="http://openstreetmap.is">openstreetmap.is</a> og <a
+        href="http://osm.is">osm.is</a> og fyrirspurnir um hann má
+        senda á <a
+        href="mailto:fyrirspurn@openstreetmap.is">fyrirspurn@openstreetmap.is</a>
+        eða á <a
+        href="http://lists.openstreetmap.org/listinfo/talk-is">talk-is
+        póstlistann</a>.
+
+        </p>
+
+  sidebar:
+    news:
+      title: "Fréttir:"
+      twitter:
+        title: OpenStreetMap á Íslandi á Twitter
+    links:
+      title: "Tenglar:"
+      talk_is:
+        text: Íslenski OpenStreetMap póstlistinn
+        title: Íslenski OpenStreetMap póstlistinn talk-is er aðal umræðuvettvangur verkefnisins á Íslandi
+      wiki:
+        text: Ísland á OpenStreetMap wiki-síðunni
+        title: Á wiki-síðunni um Ísland er að finna ýmsar upplýsingar um stöðu verkefnisins & kortagagnanna
+    license:
+      title: Efni á þessum vef er gefið út undir Creative Commons Attribution-Share Alike 2.0 leyfinu

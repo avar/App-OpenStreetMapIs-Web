@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> 
-    <title>[% c.localize("OpenStreetMap á Íslandi") %] | [% pagename %]</title>
+    <title>[% c.localize("site.layout.title_fmt", { sitename => c.localize("site.layout.sitename"), pagename => pagename }) %]</title>
     <link rel="stylesheet" type="text/css" href="[% c.uri_for('/static/css/main.css') %]" />
   </head>
   <body>

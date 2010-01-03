@@ -1,0 +1,19 @@
+  <div class="box"> 
+    <h2>[% c.loc('sidebar.news.title') %]</h2> 
+    [% INCLUDE '_twitter_widget.tt' %]
+  </div> 
+
+  <div class="box"> 
+    <h2>[% c.loc('sidebar.links.title') %]</h2> 
+    <ul> 
+      <li><a href="http://lists.openstreetmap.org/listinfo/talk-is" title="[% c.loc('sidebar.links.talk_is.title') %]">[% c.loc('sidebar.links.talk_is.text') %]</a></li> 
+      <li><a href="http://wiki.openstreetmap.org/wiki/Iceland" title="[% c.loc('sidebar.links.wiki.title') %]">[% c.loc('sidebar.links.wiki.text') %]</a></li>
+    </ul> 
+  </div> 
+
+    <center>
+    <div style="width: 88px"> 
+      <a href="http://creativecommons.org/licenses/by-sa/2.0/" rel="license"><img alt="CC by-sa 2.0" border="0" height="31" src="[% c.uri_for('/static/img/cc_button.png') %]" title="[% c.loc('sidebar.license.title') %]" width="88" /></a> 
+    </div>
+    </center>
+

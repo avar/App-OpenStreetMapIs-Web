@@ -1,4 +1,4 @@
-[% pagename = c.loc('Hvað er OpenStreetMap?') %]
+[% pagename = c.loc('site.heading.introduction') %]
 [% PROCESS 'head.tt' %]
 [% on_introduction = 1 %]
 [% PROCESS 'body_start.tt' %]

@@ -1,25 +1,12 @@
 <div id="header">
-  <h1>[% c.loc("OpenStreetMap á Íslandi") %]</h1>
-  <p class="tagline">
-    [% c.loc('Frjálsa wiki heimskortið, líka á Íslandi') %]
-  </p>
+  <h1>[% c.loc('site.layout.sitename') %]</h1>
+  <p class="tagline">[% c.loc('site.layout.tagline') %]</p>
   <div id="menu">
     [% PROCESS '_navigation.tt' %]
   </div>
 </div>
 <div id="content"> 
-  <div id="right">
-      [% IF on_index %]
-      <!--div class="box-rounded" id="box-welcome"> 
-        <b class="rtop"><b class="r1"></b> <b class="r2"></b> <b class="r3"></b> <b class="r4"></b></b>
-        <p>
-          [% c.loc('Velkomin á vef OpenStreetMap á Íslandi. <a href="http://www.openstreetmap.org" title="Aðal-OpenStreetMap vefurinn">OpenStreetMap</a> er frjálst verkefni þar sem allir geta lagt sitt af mörkum sem er að búa til kort af öllum heiminum, þ.á.m. Íslandi.<br/>
-          Hér er að finna grunnupplýsingar um verkefnið, hvernig þú getur nýtt þér það og tekið þátt.
-          ') %]
-          <b class="rbottom"><b class="r4"></b> <b class="r3"></b> <b class="r2"></b> <b class="r1"></b></b> 
-      </div-->
-      [% END %]
-
-    <h2>[% pagename %]</h2>
+  <div id="left">
+    <h2>[% heading || pagename %]</h2>
 
 

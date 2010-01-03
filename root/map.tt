@@ -1,8 +1,17 @@
-[% pagename = c.loc('Kortasýn') %]
+[% pagename = c.loc('site.heading.map') %]
+[% heading = c.loc('controller.map.heading') %]
 [% PROCESS 'head.tt' %]
 [% on_map = 1 %]
 [% PROCESS 'body_start.tt' %]
 
-map blah blah
+<p>[% c.loc('controller.map.about') %]</p>
+
+<p align="center">
+  <iframe width="600" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-25.04,63.06,-13,67.37&layer=mapnik" style="border: 1px solid black"></iframe>
+  <br />
+  <small>
+    <a href="http://www.openstreetmap.org/?lat=65.215&lon=-19.02&zoom=6&layers=B000FTFTT">[% c.loc('controller.map.view_larger') %]</a>
+  </small>
+</p>
 
 [% PROCESS 'body_end.tt' %]

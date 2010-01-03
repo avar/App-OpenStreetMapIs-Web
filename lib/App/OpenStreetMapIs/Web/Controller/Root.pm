@@ -16,6 +16,20 @@ App::OpenStreetMapIs::Web::Controller::Root - Root Controller for App::OpenStree
 
 =head1 METHODS
 
+=cut
+
+=head2 begin
+
+=cut
+
+sub begin : Private {
+    my ($self, $c) = @_;
+
+    my $loc = $c->model('Data::Localize');
+    $loc->set_languages('en', 'is');
+    $c->stash->{localize} = $loc;
+}
+
 =head2 index
 
 The root page (/)
