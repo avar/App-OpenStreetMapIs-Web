@@ -21,7 +21,7 @@ new TWTR.Widget({
   },
   features: {
     scrollbar: false,
-    loop: false,
+    loop: true
     live: true,
     hashtags: false,
     timestamp: true,
