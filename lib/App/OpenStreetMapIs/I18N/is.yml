@@ -22,6 +22,10 @@ is:
         garmin:
           text: Garmin kort
           title: OpenStreetMap fyrir Garmin tæki
+      status:
+        highways:
+          text: Þjóðvegir á OpenStreetMap
+          title: Þjóðvegir á OpenStreetMap
       about:
         text: Um vefinn
         title: Upplýsingar um OpenStreetMap.is vefinn
@@ -84,6 +88,15 @@ is:
         daginn áður.
 
         </p>
+    highways:
+      heading: Þjóðvegir á OpenStreetMap
+      text: Listi yfir þjóðvegi búinn til úr OpenStreetMap gögnunum
+      table:
+        header:
+          ref: Vegnúmer
+          name: Nafn
+          network: Vegflokkun
+          map: Kort
     about:
       heading: Um OpenStreetMap.is vefinn
       text: |

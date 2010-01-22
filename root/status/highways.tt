@@ -1,0 +1,21 @@
+[% pagename = c.loc('site.menu.highways.text') %]
+[% heading = c.loc('controller.highways.heading') %]
+[% PROCESS 'head.tt' %]
+[% on_status_highways = 1 %]
+[% PROCESS 'body_start.tt' %]
+
+[% c.loc('controller.highways.text') %]
+
+<table border="1">
+  <tr>
+    <th>[% c.loc('controller.highways.table.header.ref') %]</th>
+    <th>[% c.loc('controller.highways.table.header.name') %]</th>
+    <th>[% c.loc('controller.highways.table.header.network') %]</th>
+    <th>[% c.loc('controller.highways.table.header.map') %]</th>
+  </tr>
+  <pre>
+  [% highway_html %]
+  </pre>
+</table>
+
+[% PROCESS 'body_end.tt' %]
